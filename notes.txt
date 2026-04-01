@@ -1,0 +1,45 @@
+-- Project Overview --
+
+Tools Required 
+Frontend Technologies : HTML,CSS,JS,REACT,BOOTSTRAP,MATERIAL UI(for icons)
+Backend Technologies : NODEJS,EXPRESSJS
+Database Configuration : MONGODB
+Testing Framework : JEST
+Deployment Platform : AWS
+GitHub Setup
+
+firstly we make backend folder normally 
+and we make frontend folder by command npx create-react-app frontend because we need react application
+
+We don't push node_modules to Git because it is very large and all dependencies are already defined in package.json. Anyone can recreate it using npm install, which keeps the repository lightweight and avoids environment conflicts.
+
+to run project : go to frontend folder and then npm start
+
+
+### React Project Flow
+
+First, the major components of the website were identified, such as Navbar, Footer, Home, Products, Pricing, Signup, and Support. After that, separate folders and component files were created for each page and section to maintain a clear and organized structure.
+
+Next, the Home page was developed by combining smaller components like Hero, Awards, Stats, Pricing, and Education. Reusable components like Navbar and Footer were created so they could appear on all pages.
+
+Finally, React Router was implemented to enable navigation between pages. Routes were defined for different pages, and the Navbar links were connected using the Link component, allowing users to move between pages without reloading the website. This makes the application behave like a Single Page Application (SPA).
+
+
+firstly we need to install router in fronted folder 
+npm i react-router-dom
+and then npm start
+
+
+
+
+
+
+
+
+
+
+--- In Backend folder --
+firstly do npm init -y
+then install nodemon and other packages as shown in package.json
+then bare min index.js
+
